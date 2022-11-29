@@ -1197,15 +1197,42 @@ h3.panel-title {
 	.cuadricula input:hover{
 		color: #fff;
 	}
+	.contac {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 200px;
+		grid-row-gap: 300px;
+		align-items:flex-end ;
+		}
+		
+		.div1 { grid-area: 1 / 1 / 2 / 2; }
+		.div2 { grid-area: 1 / 2 / 2 / 3; }
+		.div3 { grid-area: 1 / 3 / 2 / 4; }
 /* =End Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 
 
 
-/* =9. Icons
+/* =9. h
 --------------------------------------------------------------------------------------------------------*/
+h3{
+	color: #fff;
+}
+label{
+	color: #fff;
+}
+#footer{
+	display: flex;
+}
+button{
+	background-color: #3498DB;
+	color: #fff;
+	height: 30px;
+	width: 100px;
+}
 
-/* End Icons
+/* End h
 --------------------------------------------------------------------------------------------------------*/
 
 
