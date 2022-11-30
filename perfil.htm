@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
 <meta charset="utf-8">
-<title>TruckService</title>
+<title>TruckService/perfil</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="author" content="weibergmedia">
 <meta name="Description" content="Belton – Sophisticated Responsive HTML5 Photography Portfolio">
@@ -10,13 +10,16 @@
 <link href="css/bootstrap.min.css" rel="stylesheet" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/empresas.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Amiri:400,600" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Lato:400,600" rel="stylesheet" />
+<link rel="stylesheet" href="css/profile.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
 <script src="js/modernizr.js" type="text/javascript"></script>
 </head>
 <body class="amiri">
@@ -24,20 +27,12 @@
   <!-- start main nav -->
   <nav id="main-nav">
     <ul class="clearfix">
-      <li> <a href="hol.html" class="sub-nav-toggle selected">Inicio</a>
+      <li> <a href="index.htm" ">Inicio</a>
      
-      <li> <a href="portfolio.html">Perfil</a></li>
-      <li> <a href="blog.html">Vehículo</a> </li>
-      <li> <a href="#" class="sub-nav-toggle">Empresa</a>
-        <ul class="sub-nav hidden">
-          <li> <a href="case-study-1.html">Case Study 1</a> </li>
-          <li> <a href="case-study-2.html">Case Study 2</a> </li>
-          <li> <a href="post-1.html">Post</a> </li>
-          <li> <a href="pricing.html">Pricing</a> </li>
-          <li> <a href="job-offers.html">Job Offers</a> </li>
-        </ul>
+      <li> <a href="perfil.htm" class="sub-nav-toggle selected" >Perfil</a></li>
+      <li> <a href="conductor.htm">Conductor</a> </li>
+      <li> <a href="empresas.htm"  >Empresas</a>
       </li>
-      <li> <a href="contact.html">Contacto</a> </li>
     </ul>
   </nav>
   <!-- end main nav --> 
@@ -54,26 +49,24 @@
   
   <!-- start header -->
   <header id="header" class="clearfix">
-    <h1 id="titulo-">Truckservice</h1>
+    <h1 id="titulo">Truckservice</h1>
   </header>
   <!-- end header --> 
   
   <!-- start content -->
   <div id="content">
+    
     <div class="full-width intro">
       <div class="full-height not-completely-full">
         <div class="fixed">
           <figure class="background-image3 parallax parallax-banner"></figure>
         </div>
         <div class="full-height-wrapper white-text">
-          <div class="parent">
+          <div class=" ">
             <div class="bottom">
               <div class="container">
                 <div class="animatedblock delay2 animatedUp">
                   <div class="col-lg-6 col-md-offset-1 col-md-7">
-                    <div class="banner-textblock">
-                      <h2 class="header">Truck Service</h2>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -83,24 +76,88 @@
       </div>
     </div>
     <section class="white">
-      <div class="container clearfix">
-        <div class="col-md-3 col-md-offset-1">
-          <div class="break"></div>
-        </div>
-        <div class="col-md-7 col-sm-6">
-          <p class="large">. </p>
-        </div>
+      <div class="container">
+        <header class="perfil">
+          <img class="perfil-foto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5NgyXyF4M9jG_BhP18olqDF4jZnTyNG1NUA&usqp=CAU" />
+          <div class="titulo">
+            <h2>Stiven Delgado</h2>
+            <h3>Dueño de vehículo</h3>
+            <div class="container-icones">
+              <img src="images/logocamion.png" alt="camionsito" id="camion">
+            </div>
+          </div>
+        </header>
+    
+        <main class="projetos">
+          <div class="container-projetos">
+            <h3>Perfil</h3>
+            <p class="texto-projetos">Informaci&oacute;n personal</p>
+            <ol>
+              <li> <label for="" > Nombre :  <input type="text" class="datos" value="Stiven Delgado" readonly><img src="images/lapices.png" class="lapiz" alt=""></label> </li>
+              <li>  C&eacute;dula: <input type="number" class="datos"  value="1091884072" readonly></li>
+              <li>  N&uacute;mero de contacto: <input type="number" class="datos"  value="3242815979" readonly> </li>
+              <li>  Placa del veh&iacute;culo: <input type="text" class="datos"  value="WSJ 732" readonly ><i [src]=""></i></li>
+              <li>  Tarjeta de propiedad
+                <br>
+                <div class="file-select" id="src-file1" >
+                  <input type="file" name="src-file1" aria-label="Archivo">
+                </div>
+              </li>
+            </ol>
+  
+    
+          </div>
+        </main>
       </div>
     </section>
   <!-- end content -->
   
   <footer id="footer">
-    <div class="container clearfix">
-      <p class="alignleft"> &copy; 2022</p>
-      <p class="alignright"> by <a href="http://www.weibergmedia.com" data-title="Premium HTML5 Website Templates">TruckServices</a>.</p>
+    <div class="clearfix">
+      <div class="contac">
+        <div class="divuno">
+          <p class="alignleft"> &copy; 2022</p>
+        </div>
+        <div class="divdos">
+          <div class="sections">
+            <section class="contact-info">
+                <h3>Cont&aacute;ctanos</h3>
+                <form
+                    action=""
+                   method="POST" id="mG61Hd">
+                    <div class="form-field">
+                        <label for="name">Nombre: <span class="required-field-label">*</span></label>
+                        <input type="text" class="form-text" placeholder="Escribe tu nombre" autocomplete="off"
+                            id="name" name="entry.1221196738" value="" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Correo: <span class="required-field-label">*</span></label>
+                        <input type="email" class="form-text" placeholder="Escribe tu correo eletr&oacute;nico"
+                            autocomplete="off" id="email" name="entry.809673193" value="" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Tel&eacute;fono:</label>
+                        <input type="text" class="form-text" placeholder="Escribe tu n&uacute;mero de tel&eacute;fono"
+                            autocomplete="off" id="phone" name="entry.1635170270" value="">
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Mensaje:</label>
+                        <textarea data-rows="1" id="message" name="entry.196369173"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+        </div>
+        </div>
+        <div class="divtres"> <p class="alignright"> by <a href="index.htm">TruckServices</a></p> 
+        </div>
+
+    </div>
     </div>
   </footer>
-</div>
+
 <!-- end wrap --> 
 
 <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 
