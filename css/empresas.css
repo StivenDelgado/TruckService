@@ -21,6 +21,7 @@
 15. Banner Text and Block Fadein
 -------------------------------------------------------------------*/
 
+:root { --colorPrincipal: (#a05bf5);}
 
 
 /* =1. Clearfix
@@ -1037,8 +1038,8 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
-	background: url(../images/w990-header.jpg) no-repeat center;
-	background-color: #3498DB;
+	/* background: url(../images/w990-header.jpg) no-repeat center; */
+	background-color: #000;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1464,6 +1465,15 @@ footer i.fa-heart {
 }
 /* End Footer
 --------------------------------------------------------------------------------------------------------*/
+ .contact-info {
+text-align: center;
+}
+
+#header .clearfix {
+
+/* background-color:var(--colorPrincipal) ; */
+
+}
 
 
 
