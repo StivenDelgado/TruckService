@@ -14,11 +14,11 @@ body {
 /* HEADER */
 .container {
   background: #000;
-  color: #1c1c1c;
   margin: 64px auto;
   border-radius: 20px;
   padding: 64px;
   max-width: 960px;
+  color: #fff;
 }
 
 .perfil {
@@ -77,12 +77,13 @@ body {
 }
 
 .container-projetos {
-  margin-left: 20px;
+  border-radius: 20px;
   padding: 18px;
+  background-color: #D2B4DE;
 }
 
 .container-projetos h3 {
-  color: #1c1c1c;
+
   font-size: 22px;
   margin-bottom: 15px;
 }
@@ -107,13 +108,16 @@ body {
 .container-projetos a:hover {
   color: #0084a2;
 }
+.container-projetos input{
+  color: #000;
+}
 .file-select {
     position: relative;
     display: inline-block;
   }
   
   .file-select::before {
-    background-color: #5678EF;
+    background-color: rgb(209, 209, 209);
     color: white;
     display: flex;
     justify-content: center;
@@ -125,6 +129,7 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+    color: #000;
   }
   
   .file-select input[type="file"] {
@@ -154,4 +159,7 @@ label{
 }
 label img{
     cursor: pointer;
+}
+#titulo-perfil{
+  color: #fff;
 }

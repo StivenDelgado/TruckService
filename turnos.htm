@@ -14,6 +14,8 @@
   <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
   <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
   <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet" />
+
 
 
 
@@ -27,7 +29,6 @@
         <li> <a href="index.htm">Inicio</a>
       
         <li> <a href="perfil.htm">Perfil</a></li>
-        <li> <a href="conductor.htm">Conductor</a> </li>
         <li> <a href="empresas.htm">Empresas</a>
         </li>
       </ul>
@@ -313,7 +314,7 @@
     function update() {
     var element = document.getElementById("myprogressBar");
     var width = 1;
-    var identity = setInterval(scene, 723000);
+    var identity = setInterval(scene, 600);
     function scene() {
       if (width >= 100) {
       clearInterval(identity);
