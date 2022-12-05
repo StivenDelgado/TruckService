@@ -1037,8 +1037,6 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
-	background: url(../images/w990-header.jpg) no-repeat center;
-	background-color: #3498DB;
 	height: 100%;
 	display: block;
 	width: 100%;
