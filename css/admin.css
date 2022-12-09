@@ -37,6 +37,7 @@
 }/* ----- clear fix for floats ----- */
 .clearfix {
 	display: inline-block;
+	background-color: ;
 }
 * html .clearfix {
 	height: 1%;
@@ -670,6 +671,7 @@ header .phone-number i.fa {
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
 #header {
+	background-color: #60c495;
 	position: absolute;
 	width: 100%;
 	height: auto;
@@ -696,7 +698,7 @@ header .phone-number i.fa {
 }
 section {
 	padding: 100px 0;
-	background: #000;
+ 
 }
 section.white {
 	background: #fff;
@@ -1452,4 +1454,7 @@ footer i.fa-heart {
 }
 .block{
     display: block;
+}
+#header .clearfix{
+	background-color: #60c495;
 }

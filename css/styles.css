@@ -371,6 +371,7 @@ blockquote footer {
 #titulo{
 	text-align: center;
 	color: #fff;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 /* h1 #logo {
 	height: 30px;
@@ -1123,7 +1124,7 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
-	background: url(../images/w990-header.jpg) no-repeat center;
+	background: url(../images/mercar.jpg) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1138,7 +1139,7 @@ h3.panel-title {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background-size:cover;
+
 }
 
 .banner-textblock {
@@ -1798,13 +1799,22 @@ ul.comments {
 .contact-info {
 
 text-align: center;
-color: #fff;
-align-items: flex-end;
+color: #000;
+/* align-items: flex-end; */
+background-color: #60c495;
 }
 
 #enviar {
-background-color: var(--colorPrincipal) ;
-
+background-color: #000;
+width: 70px;
+color: #fff;
+height: 35px;
+border: 0;
+border-radius: 5px;
+}
+.contact-info input, textarea{
+	border: 0;
+	border-radius: 5px;
 }
 
 
