@@ -768,7 +768,7 @@ section.same-color-as-previous-section {
 	position: relative;
 	margin: 0 auto;
 	padding: 0;
-	width: 1400px;
+	width: 87.5;
 	display: flex;
 	justify-content: space-between;
 }

@@ -356,6 +356,7 @@ blockquote footer {
 	text-align: center;
 	color: #fff;
 	margin: 0;
+	font-size: 2.25rem;
 }
 .below-icon {
 	margin-top: 0px;
@@ -1157,16 +1158,16 @@ h3.panel-title {
         display: block;
 		background-color: rgb(235, 232, 232);
 		color: #000;
-		padding-top: 50px;
-		border-radius: 30px;
-		padding-left:  15px;
-		padding-right:  15px;
+		padding-top: 	3.125rem;
+		border-radius: 1.875rem;
+		padding-left:  0.938rem;
+		padding-right:  0.938rem;
     }
 	.cuadricula input{
 		background-color: #fff;
 		border:0;
-		height: 30px;
-		width: 100px;	
+		height: 1.875rem;
+		width: 6.25rem;	
 		color: #000;
 
 
@@ -1178,8 +1179,8 @@ h3.panel-title {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: 1fr;
-		grid-column-gap: 200px;
-		grid-row-gap: 300px;
+		grid-column-gap: 12.5rem;
+		grid-row-gap: 18.75rem;
 		align-items:flex-end ;
 		}
 		
@@ -1205,14 +1206,14 @@ label{
 }
 button{
 	background-color: #000;
-	height: 30px;
-	width: 100px;
+	height: 1.875rem;
+	width: 6.25rem	;
 	border: 0;
 	color: #fff;
-	border-radius: 5px;
+	border-radius: 0.313rem;
 }
 .contact-info input, textarea{
-	border-radius: 5px;
+	border-radius: 0.313rem;
 	border: 0;
 
 }
