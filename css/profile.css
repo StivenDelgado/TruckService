@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
-  font-family: "Fira Code", monospace;
-}
-
 /* HEADER */
 .container {
   background: #000;
@@ -79,7 +74,7 @@ body {
 .container-projetos {
   border-radius: 20px;
   padding: 18px;
-  background-color: #D2B4DE;
+  background-color: #2e7e05;
 }
 
 .container-projetos h3 {

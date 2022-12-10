@@ -1037,6 +1037,7 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
+	background-color: #2e7e05;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1166,7 +1167,7 @@ label{
 	justify-content: center;
 }
 button{
-	background-color: #a05bf5;
+	background-color: #2e7e05;
 	color: #fff;
 	height: 30px;
 	width: 100px;

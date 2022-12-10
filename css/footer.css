@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------------------------------*/
+#footer {
+	margin: 0px;
+	width: 100%;
+	z-index: 98;
+	position: relative;
+	background: #000;
+}
+#footer.white {
+	background: #fff;
+}
+#footer.same-color-as-last-section {
+	background: #111;
+}
+#footer .container {
+	padding: 45px 55px 41px;
+	width: 100% !important
+}
+footer p {
+	color: #fff;
+	font-size: 90%;
+	padding: 0;
+	border: 0;
+	text-decoration: none
+}
+footer.white p {
+	color: #666;
+}
+footer p a {
+	color: #fff;
+	opacity: 0.7;
+}
+footer p a::after {
+	background: #fff;
+}
+footer.white p a::after {
+	background: #555;
+}
+footer.white p a {
+	color: #555;
+	text-decoration: none;
+	border-bottom: 1px solid #999;
+}
+footer p a:hover {
+	color: #fff;
+	opacity: 1;
+}
+footer.white p a:hover {
+	color: #2b2b2b;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+span.padding {
+	padding: 0 3px;
+}
+footer i.fa-heart {
+	color: #89b32c;
+}
+.contact-info {
+    text-align: center;
+    background-color: #2e7e05;
+    }
+    footer .container {
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+        background-color: #2e7e05;
+    }
+    #container {
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .same-color-as-previous-section #container {
+        margin-top: -15px;
+    }
+    .contac {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 200px;
+		grid-row-gap: 300px;
+		align-items:flex-end ;
+		}
+        h3{
+            color: #fff;
+        }
+        label{
+            color: #fff;
+        }
+        #footer{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            background-color: #000;
+            height: 30px;
+            width: 100px;
+            border: 0;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .contact-info input, textarea{
+            border-radius: 5px;
+            border: 0;
+        
+        }
