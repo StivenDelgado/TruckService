@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/camion.jpg);
+    background-image: url(../images/campocamion.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +44,7 @@ body {
 .message button {
     padding: 1rem;
     font-weight: 400;
-    background-color: #4a4aee;
+    background-color: #35a73b;
     border-radius: 2rem;
     border: none;
     outline: none;
@@ -56,7 +56,7 @@ body {
 }
 
 .message button:hover {
-    background-color: #6464f8;
+    background-color: #145017;
 }
 
 .formulario {

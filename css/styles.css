@@ -21,8 +21,6 @@
 15. Banner Text and Block Fadein
 -------------------------------------------------------------------*/
 
-:root  {--colorPrincipal:   (#a05bf5);}
-
 
 
 /* =1. Clearfix
@@ -1124,7 +1122,7 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
-	background: url(../images/mercar.jpg) no-repeat center;
+	background: url(../images/mercado.jpg) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
