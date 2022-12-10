@@ -18,7 +18,7 @@
 
 
 
-
+<script src="js/progressbar.js"></script>
 <script src="js/modernizr.js" type="text/javascript"></script>
 </head>
 <body class="amiri">
@@ -111,7 +111,7 @@
             <br>
 
 
-            <button onclick="update()" class="start">Start </button>
+            <button onclick="update()" class="start" id="inicio">Start </button>
             
             
 

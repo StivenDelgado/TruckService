@@ -15,6 +15,7 @@
   <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
   <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet" />
+<link rel="stylesheet" href="css/footer.css">
 
 
 
@@ -103,16 +104,16 @@
               </style>
               
               <p>Proceso de descargue y cargue</p>
-             <div id="Progress_Status">
-             <div id="myprogressBar">1%</div>
+            <div id="Progress_Status">
+            <div id="myprogressBar">1%</div>
               
-             
-           </div>
-           <br>
-           <p>Placa: #####</p>
+            
+          </div>
+          <br>
+          <p>Placa: #####</p>
            <p>Nombre: ********</p>
               <br>
-              <button onclick="update()" class="start">Start </button>
+              <!-- <button onclick="update()" class="start">Start </button> -->
               
               
 
@@ -313,23 +314,6 @@
   <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script> 
   <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
   <script src="js/progressbar.js" type="text/javascript"></script>
-  <script>
-                  
-    function update() {
-    var element = document.getElementById("myprogressBar");
-    var width = 1;
-    var identity = setInterval(scene, 600);
-    function scene() {
-      if (width >= 100) {
-      clearInterval(identity);
-      } else {
-      width++;
-      element.style.width = width + '%';
-      element.innerHTML = width * 1 + '%';
-      }
-    }
-    }
-    
-    </script>
+
   </body>
   </html>

@@ -1,34 +1,19 @@
-// progressbar.js@1.0.0 version is used
-// Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
 
-var bar = new ProgressBar.Circle(progress, {
-    color: '#aaa',
-    // This has to be the same size as the maximum width to
-    // prevent clipping
-    strokeWidth: 4,
-    trailWidth: 1,
-    easing: 'easeInOut',
-    duration: 60000,
-    text: {
-      autoStyleProgress: false
-    },
-    from: { color: '#aaa', width: 1 },
-    to: { color: '#333', width: 4 },
-    // Set default step function for all animate calls
-    step: function(state, circle) {
-      circle.path.setAttribute('stroke', state.color);
-      circle.path.setAttribute('stroke-width', state.width);
-  
-      var value = Math.round(circle.value() * 100);
-      if (value === 0) {
-        circle.setText('');
-      } else {
-        circle.setText(value);
-      }
-  
+
+
+
+function update() {
+  var element = document.getElementById("myprogressBar");
+  var width = 1;
+  var identity = setInterval(scene, 600);
+  function scene() {
+    if (width >= 100) {
+    clearInterval(identity);
+    } else {
+    width++;
+    element.style.width = width + '%';
+    element.innerHTML = width * 1 + '%';
     }
-  });
-  bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-  bar.text.style.fontSize = '2rem';
+  }
+  }
   
-  bar.animate(0.5);  // Number from 0.0 to 1.0

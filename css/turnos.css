@@ -1104,6 +1104,7 @@ h3.panel-title {
 		align-items: center;
 		justify-content: center;
 	}
+
     .div2 { grid-area: 1 / 2 / 2 / 3; 
 	display: flex;
 	justify-content: center;
@@ -1120,7 +1121,7 @@ h3.panel-title {
         width: 90%;
 		text-align: center;
         display: block;
-
+		border-radius: 3%;
 		background-color: rgb(235, 232, 232);
 		color: #000;
 		padding-top: 50px;
@@ -1449,6 +1450,7 @@ footer i.fa-heart {
 --------------------------------------------------------------------------------------------------------*/
 .start{
 	border: 0px;
-	
 }
+
+
 

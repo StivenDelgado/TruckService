@@ -1158,10 +1158,11 @@ h3.panel-title {
         display: block;
 		background-color: rgb(235, 232, 232);
 		color: #000;
-		padding-top: 	3.125rem;
+		padding-top: 	5.125rem;
 		border-radius: 1.875rem;
 		padding-left:  0.938rem;
 		padding-right:  0.938rem;
+		
     }
 	.cuadricula input{
 		background-color: #fff;
@@ -1169,12 +1170,13 @@ h3.panel-title {
 		height: 1.875rem;
 		width: 6.25rem;	
 		color: #000;
-
+		cursor: pointer;
 
 	}
 	.cuadricula input:hover{
 		color: #2e7e05;
 	}
+	
 	.contac {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -1438,7 +1440,6 @@ a.transition-link img {
 	width: 100%;
 	z-index: 98;
 	position: relative;
-	background: #000;
 }
 #footer.white {
 	background: #fff;

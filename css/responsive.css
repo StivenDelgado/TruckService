@@ -119,7 +119,7 @@
 				position: relative;
 				margin: 0 auto;
 				padding: 0;
-				width: 87.5;
+				width: 87.5rem;
 				display: flex;
 				justify-content: space-between;
 			}
@@ -155,10 +155,10 @@
 				display: block;
 				background-color: rgb(235, 232, 232);
 				color: #000;
-				padding-top: 50px;
-				border-radius: 30px;
-				padding-left:  15px;
-				padding-right:  15px;
+				padding-top: 3.125rem;
+				border-radius: 1.875rem;
+				padding-left:  0.9375rem;
+				padding-right:  0.9375rem;
 			}
 			.cuadricula h2, p{
 				size: 0.1rem;
@@ -168,7 +168,7 @@
 				background: #000;
 				margin: 4rem auto;
 				border-radius: 1.25rem;
-				padding: 4px;
+				padding: 0.25rem;
 				max-width: 60rem;	
 				color: #fff;
 			  }
@@ -177,12 +177,12 @@
 			}
 		}
 /*Small devices (tablets, 768px and up):*/
-@media only screen and (max-width:1200) {
+@media only screen and (max-width:1496) {
 	.container .perfil{
 		background: #000;
 		margin: 4rem auto;
 		border-radius: 1.25rem;
-		padding: 4px;
+		padding: 0.25rem;
 		max-width: 60rem;	
 		color: #fff;
 	  }
