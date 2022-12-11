@@ -687,7 +687,9 @@ section {
 	background: #000;
 }
 section.white {
-	background: #fff;
+	/* background: #fff; */
+	background-image:url(../images/campo.jpg) ;
+	background-size: cover;
 	height: 65vw;
 }
 section.same-color-as-previous-section {
@@ -1027,7 +1029,7 @@ h3.panel-title {
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
 	/* background: url(../images/w990-header.jpg) no-repeat center; */
-	background-color: #2e7e05;
+	background-color: white;
 	height: 100%;
 	display: block;
 	width: 100%;

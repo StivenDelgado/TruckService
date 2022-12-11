@@ -8,12 +8,20 @@
 
 /* HEADER */
 .container {
-  background: #000;
+  background: #145017;
   margin: 64px auto;
   border-radius: 20px;
   padding: 64px;
   max-width: 60rem;
   color: #fff;
+  
+/* filter:alpha(opacity=70);
+-moz-opacity:.70;opacity: .70; */
+}
+
+.logoverdeperfil {
+  width: 350px;
+  margin-left: 700px ;
 }
 
 .perfil {
@@ -58,9 +66,9 @@
   transition: color 0.2s;
 }
 
-.icones-perfil:hover {
+/* .icones-perfil:hover {
   color: #9d91ab;
-}
+} */
 
 /* PROJETOS */
 .projetos {
@@ -74,7 +82,7 @@
 .container-projetos {
   border-radius: 20px;
   padding: 18px;
-  background-color: #2e7e05;
+  background-color: #207a24;
 }
 
 .container-projetos h3 {
@@ -144,7 +152,18 @@
   .datos{
       border: 0;
       border-radius: 5px;
+    position: relative;
+    /* left: 100px; */
+    text-align: center;
   }
+
+  .file-select {
+width: 200px;
+height: 25px;
+margin-top: 10px;
+margin-bottom: 10px;
+  }
+
 .lapiz{
     width: 30px;
     height: 30px;
