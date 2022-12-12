@@ -1088,13 +1088,13 @@ h3.panel-title {
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; 
-		height: 100%;
-		width:90%;
+		height: 70%;
+		width:100%;
 		display: flex;
 		background-size: cover;
 		justify-content: center;
 		align-items: center;
-		background-image: url(../images/verduleria.jpg);
+		background-image: url(../images/mercadopng.png);
 		justify-self: center;
 		border-radius: 40px;
 	}
@@ -1105,27 +1105,27 @@ h3.panel-title {
 		background-size: cover;
 		justify-content: center;
 		align-self: center;
-		background-image: url(../images/verduleria2.jpg);
+		background-image: url(../images/mercadopng.png);
 		justify-content: center;
 		border-radius: 40px;}
     .div3 { grid-area: 1 / 3 / 2 / 4; 
-		height: 100%;
-		width:100%;
+		height: 70%;
+		width: 100%%;
 		display: flex;
 		background-size: cover;
 		justify-content: center;
 		align-items: center;
-		background-image: url(../images/señora.jpg);
+		background-image: url(../images/mercadopng.png);
 		justify-content: center;
 		border-radius: 40px;}
     .div4 { grid-area: 1 / 4 / 2 / 5; 
-		height: 100%;
+		height: 70%;
 		width:100%;
 		display: flex;
 		background-size: cover;
 		justify-content: center;
 		align-items: center;
-		background-image: url(../images/verduleria3.jpg);
+		background-image: url(../images/mercadopng.png);
 		justify-content: center;
 		border-radius: 40px;}
     .div5 { grid-area: 2 / 1 / 3 / 2;
@@ -1167,16 +1167,17 @@ h3.panel-title {
 		
     }
 	.cuadricula input{
-		background-color: #fff;
-		border:0;
+		background-color: #207a24;
+		border-radius: 10px;
+		border-color: #207a24;
 		height: 1.875rem;
 		width: 6.25rem;	
-		color: #000;
+		color: #ffffff;
 		cursor: pointer;
 
 	}
 	.cuadricula input:hover{
-		color: #2e7e05;
+		background-color: #145017;
 	}
 	
 	.contac {
