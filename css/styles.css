@@ -21,6 +21,8 @@
 15. Banner Text and Block Fadein
 -------------------------------------------------------------------*/
 
+:root  {--colorPrincipal:   (#a05bf5);}
+
 
 
 /* =1. Clearfix
@@ -267,7 +269,7 @@ p.small.below-header {
 	margin-bottom: 12px;
 }
 p.large, article p {
-	font-size: 120%;
+	font-size: 2rem;
 	padding: 0px 0 5px;
 }
 p.details {
@@ -285,7 +287,7 @@ p.details {
 	opacity: 0.8;
 }
 .info-box-content p.large, .header-wrapper p.large {
-	max-width: 474px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -506,6 +508,7 @@ header .phone-number i.fa {
 	width: 58px;
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
+	display: none;
 }
 #nav-button {
 	display: inline-block;
@@ -731,12 +734,12 @@ header .phone-number i.fa {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	z-index: 98;
+	z-index: 100;
 	padding: 35px 0;
+	display: inline-block;
+	margin: 0 auto;
 }
-.no-intro #header {
-	position: relative;
-}
+
 .white-header #header {
 	background: #ffffff;
 }
@@ -796,6 +799,7 @@ section.same-color-as-previous-section {
 	left: 0;
 	top: 0;
 }
+
 /* =End Main Content
 --------------------------------------------------------------------------------------------------------*/
 
@@ -1122,7 +1126,7 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image3 {
-	background: url(../images/camionfrutas.jpg) no-repeat center;
+	background: url(../images/campo.jpg ) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1737,6 +1741,7 @@ ul.comments {
 text-align: center;
 color: #000;
 /* align-items: flex-end; */
+background-color: #60c495;
 }
 
 #enviar {
@@ -1762,3 +1767,17 @@ iframe{
 .bx-canvas { position:absolute; top:0px; left:0px; width:100%; }
 /* End Slider
 --------------------------------------------------------------------------------------------------------*/
+#cabecera{
+	z-index: 100;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	gap: 1.7rem;
+	justify-content: center;
+	padding-top: 0.625rem;
+}
+#cabecera a{
+	color: #fff;
+	font-size: 3rem;
+	
+}
