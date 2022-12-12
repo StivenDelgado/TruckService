@@ -1525,11 +1525,11 @@ span{
 	padding-top: 0.625rem;
 }
 #cabecera a{
-	color: #2e7e05;
+	color: #fff;
 	font-size: 1.5rem;
 	font-weight: bold;
 }
 #cabecera a:hover{
-	border-bottom: #2e7e05 3.5	px solid;
+	border-bottom: #fff 3.5px solid;
 
 }

@@ -161,21 +161,8 @@ html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-body {
-	font-size: 17px;
-	font-family: "Amiri", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	background: #000;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-}
-body.lato {
-	font-size: 16px;
-	font-family: "Lato", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-body.frank-ruhl-libre {
-	font-size: 16px;
-	font-family: "Frank Ruhl Libre", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-}
+
+
 strong {
 	font-weight: 600;
 }
@@ -1759,6 +1746,7 @@ border-radius: 5px;
 
 iframe{
 	align-self: center;
+	padding-right: 6.25rem;
 }
 /* =16. Slider
 --------------------------------------------------------------------------------------------------------*/
@@ -1778,6 +1766,10 @@ iframe{
 }
 #cabecera a{
 	color: #fff;
-	font-size: 3rem;
-	
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+#cabecera a:hover{
+	border-bottom: #fff 3.5px solid;
+
 }

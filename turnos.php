@@ -20,6 +20,7 @@
 
 
 
+
   <script src="js/modernizr.js" type="text/javascript"></script>
   </head>
   <body class="amiri">
@@ -47,9 +48,17 @@
     </div>
     
     <!-- start header -->
-    <header id="header" class="clearfix">
-      <h1 id="titulo">TruckService</h1>
-    </header>
+    <header id="cabecera">
+
+
+<a href="index.htm" class="sub-nav-toggle selected">Inicio</a>
+<a href="perfil.htm">Perfil</a>
+<a href="index.htm">   <img src="images/logoblanconuevo.png" alt="logodetruckservice" width="85px" height="85px"></a>
+<a href="empresas.htm">Negocios</a>
+<a href="#contactanos">Contáctanos</a>
+
+
+</header>
     <!-- end header --> 
     
     <!-- start content -->
@@ -252,51 +261,50 @@
     <!-- end content -->
     
     <footer id="footer">
-      <div class="container clearfix">
-        <div class="contac">
-          <div class="divuno">
-            <p class="alignleft"> &copy; 2022</p>
-          </div>
-          <div class="divdos">
-            <div class="sections">
-              <section class="contact-info">
-                  <h3>Cont&aacute;ctanos</h3>
-                  <form
-                      action=""
-                    method="POST" id="mG61Hd">
-                      <div class="form-field">
-                          <label for="name">Nombre: <span class="required-field-label">*</span></label>
-                          <input type="text" class="form-text" placeholder="Escribe tu nombre" autocomplete="off"
-                              id="name" name="entry.1221196738" value="" required>
-                      </div>
-                      <div class="form-field">
-                          <label for="email">Correo: <span class="required-field-label">*</span></label>
-                          <input type="email" class="form-text" placeholder="Escribe tu correo eletr&oacute;nico"
-                              autocomplete="off" id="email" name="entry.809673193" value="" required>
-                      </div>
-                      <div class="form-field">
-                          <label for="phone">Tel&eacute;fono:</label>
-                          <input type="text" class="form-text" placeholder="Escribe tu n&uacute;mero de tel&eacute;fono"
-                              autocomplete="off" id="phone" name="entry.1635170270" value="">
-                      </div>
-                      <div class="form-field">
-                          <label for="message">Mensaje:</label>
-                          <textarea data-rows="1" id="message" name="entry.196369173"
-                              placeholder="Escribe tu mensaje"></textarea>
-                      </div>
-                      <button type="submit">Enviar</button>
-                  </form>
-              </section>
-              
-          </div>
-          </div>
-          <div class="divtres"> <p class="alignright"> by <a href="index.htm">TruckServices</a></p> 
-          </div>
+    <div class="container clearfix">
+      <div class="contac">
+        <div class="divuno">
+          <p class="alignleft"> &copy; 2022</p>
+        </div>
+        <div class="divdos">
+          <div class="sections">
+            <section class="contact-info">
+                <h3>Cont&aacute;ctanos</h3>
+                <form
+                    action=""
+                   method="POST" id="mG61Hd">
+                    <div class="form-field">
+                        <label for="name">Nombre: <span class="required-field-label">*</span></label>
+                        <input type="text" class="form-text" placeholder="Escribe tu nombre" autocomplete="off"
+                            id="name" name="entry.1221196738" value="" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Correo: <span class="required-field-label">*</span></label>
+                        <input type="email" class="form-text" placeholder="Escribe tu correo eletr&oacute;nico"
+                            autocomplete="off" id="email" name="entry.809673193" value="" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">Tel&eacute;fono:</label>
+                        <input type="text" class="form-text" placeholder="Escribe tu n&uacute;mero de tel&eacute;fono"
+                            autocomplete="off" id="phone" name="entry.1635170270" value="">
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Mensaje:</label>
+                        <textarea data-rows="1" id="message" name="entry.196369173"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            
+        </div>
+        </div>
+        <div class="divtres"> <p class="alignright"> by <a href="index.htm">TruckServices</a></p> 
+        </div>
 
-      </div>
-      </div>
-    </footer>
-
+    </div>
+    </div>
+  </footer>
   <!-- end wrap --> 
 
   <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script> 

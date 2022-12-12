@@ -188,7 +188,7 @@ label img{
 }
 #cabecera a{
 	color: #fff;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 #cabecera a:hover{
@@ -197,4 +197,8 @@ label img{
 }
 body{
   background-color: #2e7e05;
+}
+#cabecera a:hover{
+	border-bottom: #fff 3.5px solid;
+
 }
