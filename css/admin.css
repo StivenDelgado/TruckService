@@ -448,6 +448,7 @@ header .phone-number i.fa {
 	width: 58px;
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
+	display: none;
 }
 #nav-button {
 	display: inline-block;

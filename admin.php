@@ -10,14 +10,14 @@
 <!-- <link href="css/bootstrap.min.css" rel="stylesheet" /> -->
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/admin.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/turnos.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet" />
+<link href="css/footer.css" rel="stylesheet" type="text/css" media="screen" />
 
-
-
+<!-- scripts -->
 <script src="js/progressbar.js"></script>
 <script src="js/modernizr.js" type="text/javascript"></script>
 </head>
@@ -45,13 +45,11 @@
   </div>
   
   <!-- start header -->
-  <header id="header" class="clearfix">
-    <h1 id="titulo">TruckService</h1>
-  </header>
+
   <!-- end header --> 
   
   <!-- start content -->
-  <div id="content">
+  <!-- <div id="content">
     <div class="full-width intro">
       <div class="full-height not-completely-full">
         <div class="fixed">
@@ -70,8 +68,20 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+   
     <section class="white">
+    <header id="cabecera">
+
+
+<a href="index.htm" class="sub-nav-toggle selected">Inicio</a>
+<a href="perfil.htm">Perfil</a>
+<a href="index.htm">   <img src="images/logoblanconuevo.png" alt="logodetruckservice" width="85px" height="85px"></a>
+<a href="empresas.htm">Central Mayorista</a>
+<a href="#contactanos">Contáctanos</a>
+
+
+</header>
       <div class="parent">
         <div class="div1">  <div class="cuadricula">
           <h2>Turno 1</h2>

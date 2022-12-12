@@ -48,21 +48,11 @@
     </div>
     
     <!-- start header -->
-    <header id="cabecera">
-
-
-<a href="index.htm" class="sub-nav-toggle selected">Inicio</a>
-<a href="perfil.htm">Perfil</a>
-<a href="index.htm">   <img src="images/logoblanconuevo.png" alt="logodetruckservice" width="85px" height="85px"></a>
-<a href="empresas.htm">Negocios</a>
-<a href="#contactanos">Contáctanos</a>
-
-
-</header>
+   
     <!-- end header --> 
     
     <!-- start content -->
-    <div id="content">
+    <!-- <div id="content">
       <div class="full-width intro">
         <div class="full-height not-completely-full">
           <div class="fixed">
@@ -81,8 +71,19 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <section class="white">
+      <header id="cabecera">
+
+
+<a href="index.htm" class="sub-nav-toggle selected">Inicio</a>
+<a href="perfil.htm">Perfil</a>
+<a href="index.htm">   <img src="images/logoblanconuevo.png" alt="logodetruckservice" width="85px" height="85px"></a>
+<a href="empresas.htm">Negocios</a>
+<a href="#contactanos">Contáctanos</a>
+
+
+</header>
         <div class="parent">
           <div class="div1">  <div class="cuadricula">
             <h2>Turno 1</h2>

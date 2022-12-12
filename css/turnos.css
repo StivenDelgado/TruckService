@@ -695,13 +695,12 @@ header .phone-number i.fa {
 	z-index: 55;
 	height: auto;
 }
-section {
-	padding: 100px 0;
-	background: #000;
-}
+
 section.white {
-	background: #fff;
 	height: 100vh;
+	background-image: url("../images/campo.jpg") ;
+	background-size: cover;
+	padding-top: 10px;
 }
 section.same-color-as-previous-section {
 	padding-top: 0;
@@ -1088,12 +1087,13 @@ h3.panel-title {
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat(4, 400px);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(4, 25rem);
+    grid-template-rows: repeat(1, 25rem);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 	justify-content: center;
 	align-content: center;
+	padding-top: 6rem;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; 
@@ -1463,12 +1463,22 @@ footer i.fa-heart {
 	padding-top: 0.625rem;
 }
 #cabecera a{
-	color: #2e7e05;
-	font-size: 0.5rem;
+	color: #fff;
+	font-size: 2.5rem;
 	font-weight: bold;
 }
 #cabecera a:hover{
-	border-bottom: #2e7e05 3.5	px solid;
+	border-bottom: #fff 3.5px solid;
 
 }
 
+	.cuadricula button{
+		background-color: #207a24;
+		border-radius: 10px;
+		border-color: #207a24;
+		height: 1.875rem;
+		width: 6.25rem;	
+		color: #ffffff;
+		cursor: pointer;
+
+	}
