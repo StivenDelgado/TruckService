@@ -1452,5 +1452,22 @@ footer i.fa-heart {
 	border: 0px;
 }
 
+#cabecera{
+	z-index: 100;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	gap: 1.7rem;
+	justify-content: center;
+	padding-top: 0.625rem;
+}
+#cabecera a{
+	color: #2e7e05;
+	font-size: 0.5rem;
+	font-weight: bold;
+}
+#cabecera a:hover{
+	border-bottom: #2e7e05 3.5	px solid;
 
+}
 

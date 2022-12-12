@@ -115,8 +115,11 @@
 	top: 0;
 	left: 0;
 	height: 100%;
-	padding: 30px 0px;
-	z-index: 11
+	padding-top: 30px;
+	z-index: 11;
+}
+.parent .div1, .div2, .div3, .div4{
+	align-self: flex-end ;
 }
 #preloader .child {
 	text-align: center;
@@ -436,6 +439,7 @@ header .phone-number i.fa {
 	width: 58px;
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
+	display: none;
 }
 #nav-button {
 	display: inline-block;
@@ -682,15 +686,12 @@ header .phone-number i.fa {
 	z-index: 55;
 	height: auto;
 }
-section {
-	padding: 100px 0;
-	background: #000;
-}
 section.white {
 	/* background: #fff; */
 	background-image:url(../images/campo.jpg) ;
 	background-size: cover;
 	height: 65vw;
+	padding: 0;
 }
 section.same-color-as-previous-section {
 	padding-top: 0;
@@ -1080,7 +1081,7 @@ h3.panel-title {
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 400px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 	justify-content: center;
@@ -1104,20 +1105,20 @@ h3.panel-title {
 		display: flex;
 		background-size: cover;
 		justify-content: center;
-		align-self: center;
 		background-image: url(../images/mercadopng.png);
 		justify-content: center;
 		border-radius: 40px;}
     .div3 { grid-area: 1 / 3 / 2 / 4; 
 		height: 70%;
-		width: 100%%;
+		width: 100%;
 		display: flex;
 		background-size: cover;
 		justify-content: center;
 		align-items: center;
 		background-image: url(../images/mercadopng.png);
 		justify-content: center;
-		border-radius: 40px;}
+		border-radius: 40px;
+	}
     .div4 { grid-area: 1 / 4 / 2 / 5; 
 		height: 70%;
 		width:100%;
@@ -1147,11 +1148,6 @@ h3.panel-title {
 		justify-content: center;
 		align-items : center; 
 	}
-    .div9 { grid-area: 3 / 1 / 4 / 2; }
-    .div10 { grid-area: 3 / 2 / 4 / 3; }
-    .div11 { grid-area: 3 / 3 / 4 / 4; }
-    .div12 { grid-area: 3 / 4 / 4 / 5; }
-    
      .cuadricula{
         /* border: solid red; */
         height: 90%;
@@ -1511,7 +1507,7 @@ background-color: #2e7e05;
 --------------------------------------------------------------------------------------------------------*/
 
 #start{
-	border: 0px;
+	border: 0;
 	
 }
 span{
@@ -1519,3 +1515,21 @@ span{
 }
 /* =End Lists
 --------------------------------------------------------------------------------------------------------*/
+#cabecera{
+	z-index: 100;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	gap: 1.7rem;
+	justify-content: center;
+	padding-top: 0.625rem;
+}
+#cabecera a{
+	color: #2e7e05;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#cabecera a:hover{
+	border-bottom: #2e7e05 3.5	px solid;
+
+}

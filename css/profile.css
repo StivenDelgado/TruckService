@@ -177,3 +177,24 @@ label img{
 #titulo-perfil{
   color: #fff;
 }
+#cabecera{
+	z-index: 100;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	gap: 1.7rem;
+	justify-content: center;
+	padding-top: 0.625rem;
+}
+#cabecera a{
+	color: #fff;
+	font-size: 2rem;
+	font-weight: bold;
+}
+#cabecera a:hover{
+	border-bottom: #fff 3.5px solid;
+
+}
+body{
+  background-color: #2e7e05;
+}
